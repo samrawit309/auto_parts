@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # My Apps
-    'auto_parts',
+    'spare_part',
 ]
 
 MIDDLEWARE = [
