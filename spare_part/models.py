@@ -5,22 +5,10 @@ class Make(models.Model):
     text =models.CharField(max_length=200)
     date_added=models.DateTimeField(auto_now_add=True)
 
-
-    
     def __str__(self):
         """return a string representation of the model"""
         return self.text
-class ModelCar(models.Model):
 
-    """A ModelCar the user requesting about the car."""
-    text =models.CharField(max_length=200)
-    date_added=models.DateTimeField(auto_now_add=True)
-
-
-    def __str__(self):
-
-        """return a string representation of the model"""
-        return self.text
  
 class Entry(models.Model):
     """Something specfic requested about the car"""
